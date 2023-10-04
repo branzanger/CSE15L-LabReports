@@ -19,7 +19,7 @@ The output was not an error.
 The working directory was /home.\
 The cd command with a directory as an argument will change the directory to the specified directory. \
 Here we changed from the /home directory to the /home/lecture1/messages directory. \
-The output was not an error.\
+The output was not an error.
 
 3. Path to a file
 ```
@@ -30,7 +30,7 @@ bash: cd: lecture1/messages/en-us.txt: Not a directory
 The working directory was /home.\
 The cd command with a file as an argument will not work as a file is not a directory. \
 The output was an error as cd (change directory) only works on directories and \
-is used to navigate through different directories
+is used to navigate through different directories.
 
 ### `ls`
 1. No args
@@ -42,7 +42,7 @@ lecture1
 The working directory was /home.\
 The ls command without arguments will list all files and directories in the current working directory. \
 Here we are in the /home directory and lecture1 directory is the only thing inside /home. \
-The output was not an error. \
+The output was not an error. 
 
 2. Path to a directory
 ```
@@ -53,7 +53,7 @@ Hello.class  Hello.java  messages  README
 The working directory was /home.\
 The ls command with a directory as an argument will list all files and directories in the directory specified \
 by the argument.\
-The output was not an error. \
+The output was not an error. 
 
 3. Path to a file
 ```
@@ -63,7 +63,7 @@ lecture1/messages/en-us.txt
 ```
 The working directory was /home.\
 The ls command with a directory as an argument will list the file specified.\
-The output was not an error. \
+The output was not an error. 
 
 ### `cat`
 
@@ -75,7 +75,7 @@ The output was not an error. \
 The working directory was /home. \
 The cat command without arguments will wait for keyboard input and repeat whatever was inputted once it receives \
 and EOF(end of file) signal. \
-The output was not an error. \
+The output was not an error. 
 
 2. Path to a directory
 ```
@@ -86,7 +86,7 @@ cat: lecture1/: Is a directory
 The working directory was /home. \
 The cat command with a directory as an argument will print the relative directory and say  "Is a directory". \
 The output was an error as the cat command is specifically used to view, create, and modify files and won't work 
-with directories. \
+with directories. 
 
 3. Path to a file
 ```
@@ -97,5 +97,5 @@ Hello World!
 The working directory was /home. \
 The cat command with a single file path as an argument will display the contents of the file in txt form. \
 Here the contents of "en-us.txt" were "Hello World!" as displayed by the cat command. \
-The output was not an error. \
+The output was not an error. 
 

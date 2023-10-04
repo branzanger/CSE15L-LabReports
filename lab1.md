@@ -24,7 +24,8 @@ bash: cd: lecture1/messages/en-us.txt: Not a directory
 [user@sahara ~]$
 ```
 The working directory was /home.
-The output was an error as cd (change directory) only works on directories and \n is used to navigate through different directories
+The output was an error as cd (change directory) only works on directories and\
+is used to navigate through different directories
 
 
 

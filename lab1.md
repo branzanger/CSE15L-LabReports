@@ -1,9 +1,13 @@
 ## Lab 1
-1. cd
-   * ``` [user@sahara ~/lecture1]$ cd
+---
+### cd
+1. no args
+```
+[user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ 
 ```
-3. ls
-4. cat
+The working directory when running the command was /home/lecture1.
+The output was not an error
+
 
 

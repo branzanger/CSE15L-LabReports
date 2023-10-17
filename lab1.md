@@ -1,6 +1,6 @@
 ## Lab 1
 ---
-### `cd`
+### ```cd```
 1. No args
 ```
 [user@sahara ~/lecture1]$ cd

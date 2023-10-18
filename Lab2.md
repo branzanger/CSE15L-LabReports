@@ -15,7 +15,7 @@
 
 ### Part 2
 
-* ```C:\Users\brand\.ssh\id_rsa```
+* ```C:\Users\brand\.ssh\id_rsa``` \
   ![Private Key](</Lab2Assets/Private Key.png>)
 * ```/home/linux/ieng6/cs15lfa23/cs15lfa23rb/.ssh```
   ![Public Key](</Lab2Assets/Public Key.png>)

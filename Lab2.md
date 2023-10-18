@@ -1,1 +1,1 @@
-![Hello] (/Lab2Assests/Hello.png)
+![Hello](/Lab2Assests/Hello.png)

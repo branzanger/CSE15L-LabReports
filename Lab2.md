@@ -22,7 +22,7 @@
 * Logging in without password
   ![SSH no pwd](</Lab2Assets/SSH.png>)
 
-  ### Part 3
+### Part 3
   I learned about basic servers and how to use ports and localhost to host them. Learning how to connect to servers was also very helpful and being able to log in without having to enter my password every time is very nice. I realized why VSCode should stay a text editor and should not be used as an IDE. I also learned how to use the ```scp``` command. The biggest thing I learned during these 2 weeks is how website urls are structured and about the different information contained in each url and how its parsed.
   
   

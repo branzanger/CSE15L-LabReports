@@ -8,7 +8,7 @@
 
 
 
-![Howareyou](/Lab2Assets/How%20are%20you.png)
+![Howareyou](/Lab2Assets/How-are-you.png)
 * When calling the server the `URLHandler` method is called. In `URLHandler` we call the helper method `buildText` to help build the response.
 * The argument to `URLHandler` is a `URL` class and the argument to `buildText` is the Arraylist of strings that have been added.
 * The url class, path = "/add-message", stringList = {"Hello", "How are you"}, and query = {"s", "How are you"} were all updated.
@@ -16,9 +16,9 @@
 ### Part 2
 
 * ```C:\Users\brand\.ssh\id_rsa``` \
-![Private Key](/Lab2Assets/Private%20Key.png)
+![Private Key](/Lab2Assets/Private-Key.png)
 * ```/home/linux/ieng6/cs15lfa23/cs15lfa23rb/.ssh```
-![Public Key](/Lab2Assets/Public%20Key.png)
+![Public Key](/Lab2Assets/Public-Key.png)
 * Logging in without password
   ![SSH no pwd](/Lab2Assets/SSH.png)
 

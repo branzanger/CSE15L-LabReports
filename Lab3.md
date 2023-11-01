@@ -36,13 +36,12 @@
     }
   }
   ```
-
-  ## Part 2 - Researching Commands
-  We will research the `find` command
-  
 * Debugged Code
 * The fix was cutting down the iterations by half so it wouldn't swap the array then swap it back again
 * Then actually swapping the variables instead of just deleting one of them and not modifying one
 
+
+  ## Part 2 - Researching Commands
+  We will research the `find` command
 
 

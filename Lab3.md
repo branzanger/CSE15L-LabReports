@@ -42,6 +42,6 @@
 
 
   ## Part 2 - Researching Commands
-  We will research the `find` command
+  We will research the `grep` command with the 4 options `-c`, `-h`, `-i`, and `-v`. /
 
 

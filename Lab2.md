@@ -81,13 +81,13 @@ class StringServer {
 ## Part 2
 
 * ```C:\Users\brand\.ssh\id_rsa``` \
-  ![Private Key](/LabReport2Assets/Private-Key.png)
+  ![Private Key](/LabReport2Assets/Private-Key.png) \
   Path to private key
 * ```/home/linux/ieng6/cs15lfa23/cs15lfa23rb/.ssh``` \
-  ![Public Key](/LabReport2Assets/Public-Key.png)
+  ![Public Key](/LabReport2Assets/Public-Key.png) \
   Path to public key
 * Logging in without password
-  ![SSH no pwd](/LabReport2Assets/SSH.png)
+  ![SSH no pwd](/LabReport2Assets/SSH.png) \
   Screenshot of logging in without password
 
 

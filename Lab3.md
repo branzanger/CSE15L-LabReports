@@ -114,6 +114,6 @@
 * Here we can see that the `-c` option overrides the `-n` option and will not print any lines and instead just prints the count of all matching items
   
 
-Sources:
-https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+Sources: \
+https://www.geeksforgeeks.org/grep-command-in-unixlinux/ \
 `grep --help` command in git bash

@@ -45,16 +45,16 @@
   We will research the `grep` command with the 4 options `-v`, `-c`, `-i`, and `-n`. /
 
   ### `-v` This option will return anything not matching our pattern
-  * ```
-    $ find technical/government/ | grep -v ".txt"
-    technical/government/
-    technical/government/About_LSC
-    technical/government/Alcohol_Problems
-    technical/government/Env_Prot_Agen
-    technical/government/Gen_Account_Office
-    technical/government/Media
-    technical/government/Post_Rate_Comm
-    ```
+* ```
+  $ find technical/government/ | grep -v ".txt"
+  technical/government/
+  technical/government/About_LSC
+  technical/government/Alcohol_Problems
+  technical/government/Env_Prot_Agen
+  technical/government/Gen_Account_Office
+  technical/government/Media
+  technical/government/Post_Rate_Comm
+  ```
 * Here we are finding everything that is not a text file in the `technical/government` directory and the only things that aren't textfiles are the working directory and subdirectories. /
 * ```
   $ find technical/government/Alcohol_Problems/ | grep -v "Session"

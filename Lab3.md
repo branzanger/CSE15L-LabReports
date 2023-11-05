@@ -44,7 +44,7 @@
   ## Part 2 - Researching Commands
   We will research the `grep` command with the 4 options `-v`, `-c`, `-i`, and `-n`. /
 
-  * `-v` This option will return anything not matching our pattern
+  ### `-v` This option will return anything not matching our pattern
   * ```
     $ find technical/government/ | grep -v ".txt"
     technical/government/
@@ -63,7 +63,7 @@
   ```
 * Here we are finding all items in the `technical/government/Alcohol_Problems/` directory without the word `"Session"` in it
 
-* `-c` This option will return only the count of matching directories and files
+### `-c` This option will return only the count of matching directories and files
 * ```
   $ find technical/ | grep -c ".txt"
   1391
@@ -75,7 +75,7 @@
   ```
 * Here we have no pattern so we count all items in the `technical/` directory
 
-* `-i` This option will ignore case and return all matching lines regardless of case.
+### `-i` This option will ignore case and return all matching lines regardless of case.
 * ```
   $ find technical/government/About_LSC/ | grep -i "legal"
   technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
@@ -91,7 +91,7 @@
   ```
 * Here we searched for `"STATE"` and were able to find 2 txt files with inexact casing.
 
-* `-n` This option will return the normal input but with a line number on every matching output
+### `-n` This option will return the normal input but with a line number on every matching output
 * ```
   $ find technical/ | grep -nv ".txt"
   1:technical/

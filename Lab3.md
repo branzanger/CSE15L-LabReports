@@ -92,6 +92,26 @@
 * Here we searched for `"STATE"` and were able to find 2 txt files with inexact casing.
 
 * `-n` This option will return the normal input but with a line number on every matching output
+* ```
+  $ find technical/ | grep -nv ".txt"
+  1:technical/
+  2:technical/911report
+  20:technical/biomed
+  858:technical/government
+  859:technical/government/About_LSC
+  877:technical/government/Alcohol_Problems
+  882:technical/government/Env_Prot_Agen
+  897:technical/government/Gen_Account_Office
+  989:technical/government/Media
+  1135:technical/government/Post_Rate_Comm
+  1150:technical/plos
+  ```
+* Here we print the line numbers of all items that don't have `".txt"` in them
+* ```
+  $ find technical/ | grep -nc ".txt"
+  1391
+  ```
+* Here we can see that the `-c` option overrides the `-n` option and will not print any lines and instead just prints the count of all matching items
   
 
 

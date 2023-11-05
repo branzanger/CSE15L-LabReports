@@ -42,19 +42,56 @@
 
 
   ## Part 2 - Researching Commands
-  We will research the `grep` command with the 4 options `-c`, `-h`, `-i`, and `-v`. /
+  We will research the `grep` command with the 4 options `-v`, `-c`, `-i`, and `-n`. /
 
   * `-v` This option will return anything not matching our pattern
   * ```
-    $ $ find technical/government/ | grep -v ".txt"
-	technical/government/
-	technical/government/About_LSC
-	technical/government/Alcohol_Problems
-	technical/government/Env_Prot_Agen
-	technical/government/Gen_Account_Office
-	technical/government/Media
-	technical/government/Post_Rate_Comm
-	```
-* Here we are finding everything that is not a text file in the `technical/government` directory and the only things that aren't textfiles are the working directory and sub directoores. /
+    $ find technical/government/ | grep -v ".txt"
+    technical/government/
+    technical/government/About_LSC
+    technical/government/Alcohol_Problems
+    technical/government/Env_Prot_Agen
+    technical/government/Gen_Account_Office
+    technical/government/Media
+    technical/government/Post_Rate_Comm
+    ```
+* Here we are finding everything that is not a text file in the `technical/government` directory and the only things that aren't textfiles are the working directory and subdirectories. /
+* ```
+  $ find technical/government/Alcohol_Problems/ | grep -v "Session"
+  technical/government/Alcohol_Problems/
+  technical/government/Alcohol_Problems/DraftRecom-PDF.txt
+  ```
+* Here we are finding all items in the `technical/government/Alcohol_Problems/` directory without the word `"Session"` in it
+
+* `-c` This option will return only the count of matching directories and files
+* ```
+  $ find technical/ | grep -c ".txt"
+  1391
+  ```
+* Here we take a count of all files and directories under `technical/` and find all that don't match the `".txt"` pattern. \
+* ```
+  $ find technical/ | grep -c ""
+  1402
+  ```
+* Here we have no pattern so we count all items in the `technical/` directory
+
+* `-i` This option will ignore case and return all matching lines regardless of case.
+* ```
+  $ find technical/government/About_LSC/ | grep -i "legal"
+  technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
+  technical/government/About_LSC/LegalServCorp_v_VelazquezOpinion.txt
+  technical/government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
+  technical/government/About_LSC/ONTARIO_LEGAL_AID_SERIES.txt
+  ```
+* Here we searched for the pattern `"legal"` and were able to get files that didn't match our exact case.
+* ```
+  $ find technical/government/About_LSC/ | grep -i "STATE"
+  technical/government/About_LSC/State_Planning_Report.txt
+  technical/government/About_LSC/State_Planning_Special_Report.txt
+  ```
+* Here we searched for `"STATE"` and were able to find 2 txt files with inexact casing.
+
+* `-n` This option will return the normal input but with a line number on every matching output
+  
 
 

@@ -42,7 +42,7 @@
 
 
   ## Part 2 - Researching Commands
-  We will research the `grep` command with the 4 options `-v`, `-c`, `-i`, and `-n`. /
+  We will research the `grep` command with the 4 options `-v`, `-c`, `-i`, and `-n`. 
 
   ### `-v` This option will return anything not matching our pattern
 * ```
@@ -55,7 +55,7 @@
   technical/government/Media
   technical/government/Post_Rate_Comm
   ```
-* Here we are finding everything that is not a text file in the `technical/government` directory and the only things that aren't textfiles are the working directory and subdirectories. /
+* Here we are finding everything that is not a text file in the `technical/government` directory and the only things that aren't textfiles are the working directory and subdirectories. 
 * ```
   $ find technical/government/Alcohol_Problems/ | grep -v "Session"
   technical/government/Alcohol_Problems/
@@ -68,7 +68,7 @@
   $ find technical/ | grep -c ".txt"
   1391
   ```
-* Here we take a count of all files and directories under `technical/` and find all that don't match the `".txt"` pattern. \
+* Here we take a count of all files and directories under `technical/` and find all that don't match the `".txt"` pattern. 
 * ```
   $ find technical/ | grep -c ""
   1402

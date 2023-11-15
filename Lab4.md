@@ -41,7 +41,7 @@ use `vim` to open `ListExamples.java` with tab completion \
 /index1 +<enter>nner2
 ```
 `/` command searches for a pattern with the pattern being `index1 +` \
-Then we hit `<enter>nn` to find the third occurrence of the pattern with each n iterating 1 instance of the pattern \
+Then we hit `<enter>nn` to find the third occurrence of the pattern with each `n` iterating 1 instance of the pattern \
 `e` goes to the end of the word `index1` putting the cursor right before `1` and the `r2` command replaces `1` with `2`
 ![image](https://github.com/branzanger/CSE15L-LabReports/assets/66757687/ba7621cc-34c9-4e45-83c3-6b8655453405)
 ```

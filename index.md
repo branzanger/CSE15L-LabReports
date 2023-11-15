@@ -3,3 +3,5 @@
 [Lab 2](https://branzanger.github.io/CSE15L-LabReports/Lab2.html)
 
 [Lab 3](https://branzanger.github.io/CSE15L-LabReports/Lab3.html)
+
+[Lab 4](https://branzanger.github.io/CSE15L-LabReports/Lab4.html)

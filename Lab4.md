@@ -13,7 +13,7 @@ Clone your fork of the repository from your GitHub account (using the `SSH` URL)
 ```
 git clone[<shift><ins>]<enter>
 ```
-`git clone` clones a repository and then I paste in the repository link
+`git clone` clones a repository and then I paste in the repository link \
 `<shift><ins>` is the paste hot key for git bash terminal
 ![Clone Fork](https://github.com/branzanger/CSE15L-LabReports/assets/66757687/53bc796c-1d17-46c2-a8b9-4a14cae002df)
 

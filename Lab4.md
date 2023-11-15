@@ -41,6 +41,25 @@ vim Li<tab>.<tab><enter>
 ```
 ![image](https://github.com/branzanger/CSE15L-LabReports/assets/66757687/e206540a-3c97-4bf7-bd87-d97ad4eaadd6)
 
+## Step 8
+Run the tests, demonstrating that they now succeed
+```
+bash t<tab><enter>
+```
+![image](https://github.com/branzanger/CSE15L-LabReports/assets/66757687/05b4c103-91c2-402f-86e0-a0c62185bcae)
+
+## Step 9
+Commit and push the resulting change to your Github account (you can pick any commit message!)
+```
+git add .<enter>
+git commit -m "fixed an issue where merge would increment the wrong index"<enter>
+git push origin main
+```
+![image](https://github.com/branzanger/CSE15L-LabReports/assets/66757687/4743cd2e-d9bb-4357-965a-288dff1e4a0e)
+
+
+
+
 
 
 
